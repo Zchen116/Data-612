@@ -1,0 +1,39 @@
+---
+title: "Untitled"
+output: html_document
+---
+#Part 1
+#Please complete the research discussion assignment in a Jupyter or R Markdown notebook. You should post the GitHub link to your research in a new discussion thread.
+
+#Now that we have covered basic techniques for recommender systems, choose one commercial recommender and describe how you think it works (content-based, collaborative filtering, etc). Does the technique deliver a good experience or are the recommendations off-target?
+
+#You may also choose one of the three non-personalized recommenders (below) we went over in class and describe the technique and which of the three you prefer to use.
+
+#1. Metacritic:  How We Create the Metascore Magic
+#2. Rotten Tomatoes: About Rotten Tomatoes
+#3. IMDB: FAQ for IMDb Ratings
+#Please complete the research discussion assignment in a Jupyter or R Markdown notebook. You should post the GitHub link to your research in a new discussion thread.
+
+#My Answer:
+#Netflix: it is a platform built for the users to find movies, TV shows, or cartoon to entertain. Every time you press play and spend some time to watch a TV show or a movie, Netflix is collecting the data that informs the algorithm, stores it in record when you refresh. The more and more you watch, the more and more data collected, so the next time you may find out Netflix will give you some recommendations that you may like to watch also.
+
+#There are three algorithms: 
+#First, popular movies. This algorithm picks the most popular movie or TV show on Netflix and recommends these movies to all users. Since it's based on popular movie rate, so every user will see the same. 
+#Second, user's choice filtering. This algorithm is based on the user's choice. Because when Netflix displays movies that user is watching, Netflix collects the data and assumes that user will like to watch similar content. However, with more and more similar movies being played in a loop, then the diversity of content will never show again. 
+#Third, content/item-based filtering. This algorithm is based on the basic assumption of why users want to watch movies, is it because of some favorite actors or directors, war scenes or revenge or is it based on novels that user like to read? This understanding of consumer's thinking is the most important part of predicting what users will see next.
+#After all, Netflix gives me good experience from user's choice filtering, which will reduce my searching time, and will not need to worry about the movie that I may not like. 
+
+
+
+#Part 2:
+#Attacks on Recommender System
+
+#Read the article below and consider how to handle attacks on recommender systems. Can you think of a similar example where a collective effort to alter the workings of content recommendations have been successful? How would you design a system to prevent this kind of abuse?
+
+#Travis M. Andrews, The Washington Post (2017): Wisdom of the crowd? IMDb users gang up on Christian Bale's new movie before it even opens.
+
+#My Answer:
+# Another similar instance to the examples given in the article is when Sonic the Hedgehog, the movie, first came out. The visual effects of the trailer received huge fan backlash. Waves of bad reviews and rating surfaced on platforms such as Twitter and YouTube, two very heavily used social media by users. The huge backlash forced the director of the movie to delay the premiere of the movie and essentially revamp the visuals for the movie.
+# To prevent an abuse of the recommender system, there are several key components. One, the system must be able to filter out extraneous and unhelpful reviews. This is to prevent user spam. This can be achieved in several ways. One, reviews that are simply superficial and have no real substance to them such as a simple "bad" or "terrible" can be weighted less in the evaluation of the content. On the other hand, reviews that are constructive and informative can be weighted more in the evaluation of the content. In addition, it would be helpful to monitor the time trend of the ratings/reviews of the content. If there is an unexplained influx of reviews/ratings in one extreme, then these reviews should not be considered as important as the ones that precedes the influx. In addition, having a more comprehensive set of ratings/reviews would buffer this kind of abuse as well. For instance, if the content in consideration is a game app, having a rating/review for bugs, content quality, and etc. would not only provide the users a more comprehensive understanding of the app itself, but also prevent defining the content one-dimensionally. 
+
+
