@@ -1,0 +1,14 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+#Please complete the research discussion assignment in a Jupyter or R Markdown notebook. You should post the GitHub link to your research in a new discussion thread.
+
+#For this discussion item, please watch the following talk and summarize what you found to be the most important or interesting points. The first half will cover some of the mathematical techniques covered in this unit's reading and the second half some of the data management challenges in an industrial-scale recommendation system.
+
+#Please make your post before our meetup on Thursday, and respond to at least one other student's posts by our meetup on Tuesday.
+
+#My Answer: Spotify uses a technique called collaborative filtering to recommend songs to its users. Collaborative Filtering is a technique used to recommend content to users by analyzing what they've listened to and the relationships between the content that they've consumed. More formally, a rating matrix is used to represent the problem. Based on the existing rating, Spotify would recommend content that they think would be rated highly for the users. Since Spotify has implicit data for their database, implicit matrix factorization is used to approximate a binary-coded matrix by a product of lower dimensional matrices. Instead of minimizing the root mean squared error, the weighted root mean squared error is minimized. Afterward, to solve the optimization problem, a technique called alternating least square is used. The alternating least square method is simply solving the linear squared regression back and forth by fixing either the song or the user vector. The process is repeated until there is a convergence.
+
+#Between Spark and Hadoop, Hadoop has the weakness of having to read and write from disk every time the algorithm is performed. Spark, on the other hand, can load the rating matrix into memory and solves the problem of having to reread the matrix from disk every iteration. What is interesting is the difference in running time between Hadoop and Spark. Hadoop took 10 hours to run the alternating least square algorithm while Spark took 3.5 hours for full gridify and 1.5 for half gridify.
