@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+#As more systems and sectors are driven by predictive analytics, there is increasing awareness of the possibility and pitfalls of algorithmic discrimination. In what ways do you think Recommender Systems reinforce human bias? Reflecting on the techniques we have covered, do you think recommender systems reinforce or help to prevent unethical targeting or customer segmentation?  Please provide one or more examples to support your arguments.
+
+#A few resources:
+
+#Evan Estola (2016): When Recommendations Systems Go Bad; MLconf SEA 2016
+
+#Rishabh Jain (2016): When Recommendation Systems Go Bad
+
+#Moritz Hardt, Eric Price, Nathan Srebro (2016):  Equality of Opportunity in Supervised Learning
+
+#My Answer: Recommender systems permeates a myriad of fields in our daily life. From Amazon to YouTube, Facebook to Spotify, recommender systems have immense control on what we see and consume when we are using these applications. Considering that most inputs to these recommender system algorithms are human preferences, biases in these systems are inevitable. Take Netflix for example, one of the inputs into their recommender system is the shows that the user has watched and then Netflix will recommend shows that have a similar theme or tag such as "horror movies" or "romantic dramas". Consider the instance that a user watched several East Asian Romantic dramas, their Netflix homepage would be filled with similar themed dramas and the user would consume more of the same type of drama. This would grant more exposure to shows with similar themes, but also decrease the likelihood of other shows being explored. The ethical implication in this case is not as obvious since Netflix is mostly an entertainment application. However, if we consider a recruiting recommendation system, then the implication would be much more drastic. If the input of such recommendation system is previously hired personnel, then if the hired population has a significant racial/gender disparity, then the algorithm would automatically favor one racial/gender group over the others.  As such, recommender systems do reinforce human bias. As for whether recommender system reinforce or prevent unethical targeting or customer segmentation, it is evident that recommender system reinforces, or rather exposes, the human bias that contribute to unethical targeting. Take Collaborative Filtering for instance, collaborative filtering uses input across all users and all contents to recommend new contents. Needless to say, this algorithm will perpetuate and expose the inherent biases in society such as gender norms, anti-LGBTQ sentiments, and body image biases. In other words, group biases would be reflected in personal recommendations in Collaborative Filtering. 
