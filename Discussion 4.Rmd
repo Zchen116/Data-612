@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+#Please complete the research discussion assignment in a Jupyter or R Markdown notebook. You should post the GitHub link to your research in a new discussion thread.
+
+#Mitigating the Harm of Recommender Systems
+
+#Read one or more of the articles below and consider how to counter the radicalizing effects of recommender systems or ways to prevent algorithmic discrimination.
+
+#Renee Diresta, Wired.com (2018): Up Next: A Better Recommendation System
+
+#Zeynep Tufekci, The New York Times (2018): YouTube, the Great Radicalizer
+
+#Sanjay Krishnan, Jay Patel, Michael J. Franklin, Ken Goldberg (n/a): Social Influence Bias in Recommender Systems: A Methodology for Learning, Analyzing, and Mitigating Bias in Ratings
+
+#My answer: It is no surprise that many recommender systems have a tendency to perpetuate or even exaggerate human biases and discrimination. Just as the article "YouTube, the Great Radicalizer" noted, many recommender systems actually drive content consumption to extremes. Some of the examples provided in the article ranged from watching trump videos leading to white supremacy videos to watching running videos to marathon videos. To combat this bias in consuming the extreme, there are several ways to approach the problem. First, giving the user more authority over the recommender system would allow for more autonomy for the users and personalized recommendations. Many applications such as The New York Times already ask the users to configure the kind of content they are interested in when they first sign into their account. However, most applications do not allow users to edit what they wish to view afterward. In other words, once the users start consuming contents, the recommender system take reign. To combat this, it would be helpful to allow the users to filter, weight, or edit the inputs to the recommender algorithm. Another solution to the algorithmic discrimination problem can simply be to diversify the content recommended. Instead of simply recommending content in one dimension or direction, simply provide more options for the users. For example, watching Trump videos will not only lead to more pro-Trump videos but also recommend entertainment videos featuring Trump. This would then allow the users to choose in which direction they want to continue to consume their contents. If they want to watch more pro-Trump videos, then they have that option. Otherwise, they can consume the other content, which will provide new input for the recommender algorithm, allowing for more diverse and personalized recommendations.
